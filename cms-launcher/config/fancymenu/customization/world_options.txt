@@ -1,0 +1,48 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.EditWorldScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400279%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400327%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400375%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400255%
+  orientation = top-left
+  x = 156
+  action = movebutton
+  y = 197
+}
+
+customization {
+  identifier = %id=400303%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400351%
+  action = hidebutton
+}
+

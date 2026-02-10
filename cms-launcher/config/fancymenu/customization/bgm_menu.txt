@@ -1,0 +1,211 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = bgm_menu/baground.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 3
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = Singleplayer
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-left
+  x = 258
+  action = movebutton
+  y = 144
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 122
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = d3b5d4a9-7dc0-4ed2-9c3a-e0483a54b3551770439774668
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 143
+  action = deep_customization_element:title_screen_branding
+  actionid = d3b0102e-fd61-4ab8-a255-da789900382d1770439774668
+  y = 212
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 283
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = daf45d78-8b52-4e82-8178-3a13250a3ba81770439774668
+  y = 254
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 359
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = b33e9f5b-f132-4ac4-bef4-33259bfdb55a1770439774668
+  y = 172
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 119
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = bf0fb10b-faf7-446b-90f2-254a49d9413f1770439774669
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-left
+  splash_color = #ffff00
+  hidden = true
+  x = 338
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = c921729c-4ff7-4ddd-9dbb-0b4967fae2bc1770439774669
+  y = 51
+  height = 30
+}
+
+customization {
+  path = bgm_menu/cmslogo.png
+  orientation = top-left
+  x = 132
+  width = 264
+  action = addtexture
+  actionid = 63d45069-7e6c-4c33-bb93-2d53463e3ba81770499989035
+  y = 12
+  height = 84
+}
+
+customization {
+  orientation = bottom-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver;CMSchillmodedserver.feathermc.gg%btnaction_splitter_fm%
+  x = -356
+  width = 200
+  action = addbutton
+  actionid = 60b8d761-985a-4a8c-8a7c-ef6e15da09b01770439913811
+  y = -169
+  label = CMS
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.screen.WorldSelectionScreen%btnaction_splitter_fm%
+  x = 156
+  width = 200
+  action = addbutton
+  actionid = 2a63c755-20be-40cb-84a8-f53895cb75011770440790314
+  y = 143
+  label = Singleplayer
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.screen.LanguageScreen%btnaction_splitter_fm%
+  x = 258
+  width = 100
+  action = addbutton
+  actionid = fb35e3d8-3d21-43c8-8aa6-1b09529a0afd1770441699224
+  y = 168
+  label = Language
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  rotation = -20.0
+  scale = 1.5
+  refresh = false
+  bouncing = true
+  vanilla-like = true
+  x = 300
+  actionid = 3ff8f651-1a15-4c0b-a807-b7bac732ff2a1770500188036
+  action = addsplash
+  y = 82
+  text = l33t!
+}
+

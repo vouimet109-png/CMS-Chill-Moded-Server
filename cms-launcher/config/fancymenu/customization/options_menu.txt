@@ -1,0 +1,49 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.OptionsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505154%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345232%
+  orientation = bottom-left
+  x = 101
+  action = movebutton
+  y = -150
+}
+
+customization {
+  identifier = %id=345154%
+  orientation = mid-left
+  x = 101
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=345208%
+  orientation = bottom-right
+  x = -411
+  action = movebutton
+  y = -174
+}
+
+customization {
+  identifier = %id=345256%
+  action = hidebutton
+}
+
